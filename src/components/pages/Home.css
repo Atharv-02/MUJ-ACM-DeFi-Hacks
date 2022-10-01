@@ -1,0 +1,134 @@
+.item-container {
+  display: flex;
+  align-items: center;
+}
+.decoration {
+  margin-right: 100px;
+  margin-top: 2rem;
+  width: 575px;
+}
+img {
+  margin-top: 1rem;
+}
+.text-container {
+  color: #fff;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 6.8rem;
+}
+
+.you-text {
+  color: rgb(236, 179, 101);
+}
+
+.you-text:hover {
+    color: rgb(129, 103, 67);
+  }
+
+.write-petiiton {
+  font-size: 1.2rem;
+}
+.container {
+  height: 100vh;
+}
+
+Button.button-css {
+  background-color: rgb(236, 179, 101);
+}
+
+Button.button-css:hover {
+  background-color: rgb(129, 103, 67);
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+.about-us img {
+  width: 100px;
+}
+.about-us-content {
+  padding: 0px 0px 16px 0px;
+  text-align: center;
+}
+.about-us-maincontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+.content {
+  /* margin-left: 50px; */
+  width: 500px;
+}
+.content h3 {
+  font-family: HarmoniaSansBold;
+  text-align: left;
+  font-size: 5em;
+}
+.about-us-maincontent img {
+  width: 400px;
+}
+.about-us-maincontent p {
+  font-family: HarmoniaSansRegular;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(71, 71, 71);
+  text-align: left;
+}
+
+.features {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ecb365;
+  padding: 20px;
+  height: 80vh;
+}
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 1200px;
+  margin-top: 20px;
+}
+.feature-container-under {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feature-container {
+  padding: 24px;
+  margin: 20px 0px;
+  margin-right: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.number {
+  font-family: HarmoniaSansBold;
+  color: #ecb365;
+  height: 100%;
+  font-size: 50px;
+  margin-right: 30px;
+}
+.features p {
+  font-family: HarmoniaSansRegular;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}

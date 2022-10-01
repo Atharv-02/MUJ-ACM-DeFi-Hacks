@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@layer components{
+  .nav-items{
+    @apply hover:text-white text-lg transition-all duration-100 ease-linear font-bold;
+  }
+  .wallet{
+    @apply text-[#ECB365] text-lg hover:text-[#bb9054] transition-all duration-100 ease-linear font-bold;
+  }
+}
+
+@font-face {
+  font-family: SfPro;
+  src:url("assets/font.ttf");
+}
+@font-face {
+  font-family: HarmoniaSansRegular;
+  src:url("assets/HarmoniaSansW01Regular.ttf");
+}
+@font-face {
+  font-family: HarmoniaSansBold;
+  src:url("assets/HarmoniaSansW01Bold.ttf");
+}
+@font-face {
+  font-family: SfPro;
+  src:url("assets/font.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-color: #030E35;
+  font-family: 'SfPro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Roboto',
+    monospace;
+}
+.decoration{
+  margin-right: 100px;
+  width: 500px;
+}
+.theme{
+  margin-top: 30px;
+  margin-left: 150px;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 130px;
+}
+.wallet{
+  color: #ECB365;
+  font-size: large;
+  font-weight: 510;
+}
+.wallet:hover{
+  text-decoration: none;
+  color: #bb9054;
+}
+.nav-items{
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 510;
+}
+.nav-items:hover{
+  color: #d0d0d0;
+  border-bottom: 5px solid #ECB365;
+}
+
+.active{
+  border-bottom: 5px solid #ECB365;
+}
